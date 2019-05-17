@@ -1,0 +1,75 @@
+.wrapper{
+
+    &--full{
+        display: block;
+        max-width: 1000px;
+        
+        margin-right: auto;
+        margin-left: auto; 
+        padding: 0 20px;
+
+        @mixin atMedium {
+            width: 100%;
+            padding: 0px 50px;
+        }
+    }
+
+    &--bar{
+        margin: 0px 40px;
+        @mixin atMedium {
+            padding: 0px 50px;
+        }
+        @mixin atSmall {
+            padding: 0px 30px;
+        }
+    }
+
+    &--smallfull{
+        display: block;
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 60px;
+        @mixin atMedium {
+            width: 100%;
+            padding: 0 120px;
+        }
+
+        @mixin atSmall {
+            width: 100%;
+            padding: 0 100px;
+        }
+    }
+    &--smallfull-p{
+        display: block;
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 30px;
+        @mixin atMedium {
+            width: 100%;
+            padding: 0 120px;
+        }
+
+        @mixin atSmall {
+            width: 100%;
+            padding: 0 100px;
+        }
+    }
+    &--medium{
+        display: block;
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 70px;
+        @mixin atMedium {
+            width: 100%;
+            padding: 0 80px;
+        }
+
+        @mixin atSmall {
+            width: 100%;
+            padding: 0 90px;
+        }
+    }
+}

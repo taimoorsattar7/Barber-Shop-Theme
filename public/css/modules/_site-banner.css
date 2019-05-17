@@ -1,0 +1,21 @@
+.site-banner{
+
+  &__bg{
+    background: url('./assets/bg_home.png') center center no-repeat;
+    background-color: rgba(0, 0, 0, .45);
+    background-color: lightblue;
+
+    background-size: cover;
+    padding-top: 198px;
+    padding-bottom: 110px;
+    display: block;
+    @mixin atMedium {
+      padding-top: 270px;
+      padding-bottom: 130px;
+  	}
+  }
+
+}
+ 
+
+

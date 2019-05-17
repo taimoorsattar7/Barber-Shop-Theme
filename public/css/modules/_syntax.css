@@ -1,0 +1,24 @@
+.paint-yellow{
+	display: inline-block;
+	background-color: yellow;
+}
+
+.banner-title{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+	color: white;
+	padding: 8px 5px;
+}
+.pre-editor{
+	border-radius: 3px; 
+	background-color: #272822;
+	color: white;
+	padding: 8px 5px;
+}
+.clicking{
+	display: inline-block;
+	background-color: lightgrey;
+	box-shadow: 1px 1px 1px black;
+}

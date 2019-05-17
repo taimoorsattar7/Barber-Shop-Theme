@@ -1,0 +1,37 @@
+.page{
+
+	&__back{
+		margin: 0 10px;
+		padding: 0;
+		color: grey;
+		position: relative;
+	}
+
+	&__logo{
+		width: 100vw;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	&__section{
+		width: 860px;
+		margin: 0 auto;
+		padding: 12px; 
+		background-color: white;
+		border: 1px solid black;
+		border-radius: 3px;
+	}
+
+	&__title{
+		text-align: center;
+	}
+
+	&__content{
+		border: 1px solid black;
+	}
+
+	&__footer{
+		color: grey;
+		text-align: center;
+	}
+}

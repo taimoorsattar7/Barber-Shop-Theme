@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Alternate-Gothic';
+    src: url('./fonts/Alternate-Gothic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ChaparralPro';
+	src: url('./fonts/ChaparralPro-Bold.otf') format("opentype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ChaparralPro';
+	src: url('./fonts/ChaparralPro-BoldIt.otf') format("opentype");
+	font-weight: bolder;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ChaparralPro';
+	src: url('./fonts/ChaparralPro-Italic.otf') format("opentype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'ChaparralPro';
+	src: url('./fonts/ChaparralPro-LightIt.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ChaparralPro';
+	src: url('./fonts/ChaparralPro-Regular.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Intro';
+	src: url('./fonts/Intro.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}

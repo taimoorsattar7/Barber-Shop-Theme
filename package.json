@@ -1,0 +1,36 @@
+{
+  "name": "underlinejobs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "gulpwatch": "gulp watch",
+    "gulpstyles": "gulp styles",
+    "gulpscripts": "gulp scripts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.46",
+    "@babel/preset-env": "7.0.0-beta.46",
+    "autoprefixer": "8.4.1",
+    "babel-loader": "^8.0.0-beta",
+    "browser-sync": "^2.26.3",
+    "gulp": "3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-postcss": "7.0.1",
+    "json-loader": "^0.5.7",
+    "postcss-color-function": "4.0.1",
+    "postcss-hexrgba": "1.0.1",
+    "postcss-import": "11.1.0",
+    "postcss-mixins": "6.2.0",
+    "postcss-nested": "3.0.0",
+    "postcss-simple-vars": "4.1.0",
+    "webpack": "4.8.2"
+  },
+  "dependencies": {
+    "2checkout-node": "0.0.1",
+    "jquery": "3.3.1",
+    "lightbox2": "^2.10.0",
+    "normalize.css": "8.0.0"
+  }
+}

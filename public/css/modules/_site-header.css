@@ -1,0 +1,16 @@
+.site-header{
+	width: 100%;
+
+	margin: 0 auto;
+	margin-top: 50px;
+	float: left;
+	&__logo{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+	}
+
+  &--nav--no-visible{
+    z-index: -10;
+  }
+}

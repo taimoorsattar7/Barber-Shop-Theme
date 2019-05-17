@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body,button,textarea,input{
+  font-family: 'Intro';
+}
+
+body {
+    color: black;
+    scroll-behavior: smooth;
+}
+  
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bullet {
+    padding: 0;
+    list-style-type: none;
+}
+
+
